@@ -12,19 +12,46 @@ header {
     display: flex; 
     width: 90%;
     margin: auto;
+    height: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links, .cart {
+    display: flex;
 }
 
 .logo-container {
-    background-color: lightblue;
     flex: 1;
 }
 
+.logo {
+    font-weight: 400;
+    margin: 5px;
+}
+
+.logo-container img {
+    max-height: 40px;
+    max-width: 40px;
+}
+
 nav {
-    background-color: green;
     flex:2;
 }
 
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+    color: #5f5f79;
+    font-size: 18px;
+    text-decoration: none;
+}
+
 .cart {
-    background-color: pink;
     flex:1;
+    justify-content: flex-end;
+}
+
+.cart img {
+    max-height: 20px;
+    max-width: 20px;
 }

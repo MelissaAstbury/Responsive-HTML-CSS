@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex; 
+    width: 90%;
+    margin: auto;
+}
+
+.logo-container {
+    background-color: lightblue;
+    flex: 1;
+}
+
+nav {
+    background-color: green;
+    flex:2;
+}
+
+.cart {
+    background-color: pink;
+    flex:1;
+}
